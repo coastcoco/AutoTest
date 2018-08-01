@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!--
+ methods级别：所有用例都可以在不同的线程下去执行
+thread-count：代表了最大并发线程数
+xml文件配置这种方式不能指定线程池，只有在方法上才可以指定线程池
+ -->
+
+<suite name="thread" parallel="methods" thread-count="2"> // parallel="methods"：这个多线程是方法级别的；thread-count="2"：线程数2个
+                                                                   // parallel="tests"：不同的test tag下的用例可以在不同的线程先执行相同的test tag下的
+                                                                   //用例只能在同一个线程中去执行
+    <test name="demo1">                                         //classs级别：相同的class tag下的用例在同一个线程中执行不同的class tag下的用例可以
+                                                                   //在不同的线程中执行
+
+        <classes>
+            <class name="com.course.testng.multThread.MultThreaOnXml"/>
+        </classes>
+    </test>
+</suite>
