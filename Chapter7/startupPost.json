@@ -1,0 +1,19 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post",
+      "forms": {
+        "name": "hello"
+      }
+    },
+     "response":{
+       "text":"hello world！！！这是我第一个mock的post请求",
+       "headers":{
+         "Content-Type":"text/html;charset=gbk"
+       }
+     }
+    }
+
+]
