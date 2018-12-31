@@ -13,9 +13,9 @@ public class GetUserInfoCase {
     public String toString(){
 
         return (
-                "{id"+id+","+
-                        "userid"+userId+","+
-                        "expected"+expected+"}"
+                "[{id:"+id+","+
+                        "userid:"+userId+","+
+                        "expected:"+expected+"}]"
                 );
     }
 }

@@ -12,10 +12,10 @@ public class LoginCase {
     @Override
     public String toString(){
         return (
-                "{id"+id+","+
-                "username"+userName+","+
-                "password"+password+""+
-                "expected"+expected+"}"
+                "{id:"+id+","+
+                "username:"+userName+","+
+                "password:"+password+","+
+                "expected:"+expected+"}"
                 );
     }
 }

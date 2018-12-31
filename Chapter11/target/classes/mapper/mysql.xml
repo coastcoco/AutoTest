@@ -20,6 +20,6 @@
 
     <delete id="deleteUser" parameterType="Int">
         delete from  user
-        where id = #{id}
+        where  id=#{id}
     </delete>
 </mapper>

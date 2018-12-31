@@ -10,20 +10,20 @@ public class UpdateUserInfoCase {
     private String userName;
     private String sex;
     private String age;
-    private String permisson;
+    private String permission;
     private String isActive;
     private String expected;
 
     public  String toString(){
         return (
-                "{id"+id+""+
-                "userid"+userId+""+
-                "username"+userName+""+
-                "sex"+sex+""+
-                "age"+age+""+
-                "permisson"+permisson+""+
-                "isActive"+isActive+""+
-                "expected"+expected+"}"
+                "{id:"+id+","+
+                "userid:"+userId+""+
+                "username:"+userName+","+
+                "sex:"+sex+","+
+                "age:"+age+","+
+                "permission:"+permission+","+
+                "isActive:"+isActive+","+
+                "expected:"+expected+"}"
 
                 );
     }

@@ -17,5 +17,4 @@
     <listeners>
         <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter" />
     </listeners>
-
 </suite>

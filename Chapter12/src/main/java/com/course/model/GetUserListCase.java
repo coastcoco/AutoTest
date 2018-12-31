@@ -15,11 +15,11 @@ public class GetUserListCase {
     public String toString(){
 
         return (
-                "{id"+id+","+
-                        "username"+userName+","+
-                        "age"+age+","+
-                        "sex"+sex+","+
-                        "expected"+expected+"}"
+                "{id:"+id+","+
+                        "username:"+userName+","+
+                        "age:"+age+","+
+                        "sex:"+sex+","+
+                        "expected:"+expected+"}"
                 );
     }
 }
