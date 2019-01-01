@@ -44,6 +44,7 @@ public class GetUserListTest {
         //第2步：然后断言比较里面用户是否一样。
         for (int i =0;i<resultJson.length();i++) {
             JSONObject expect = (JSONObject) resultJson.get(i);
+            //JSONObject myjObject = myJsonArray.getJSONObject(i);
             JSONObject actual = (JSONObject) userListJson.get(i);
             Assert.assertEquals(expect.toString(), actual.toString());
         }
