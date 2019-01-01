@@ -2,7 +2,7 @@
 <testng-results skipped="5" failed="2" ignored="0" total="7" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="用户管理系统测试套件" duration-ms="7971" started-at="2018-12-30T19:00:51Z" finished-at="2018-12-30T19:00:59Z">
+  <suite name="用户管理系统测试套件" duration-ms="5782" started-at="2019-01-01T11:47:42Z" finished-at="2019-01-01T11:47:48Z">
     <groups>
       <group name="loginTrue">
         <method signature="LoginTest.loginTrue()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="loginTrue" class="com.course.cases.LoginTest"/>
@@ -11,9 +11,9 @@
         <method signature="LoginTest.loginFalse()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="loginFalse" class="com.course.cases.LoginTest"/>
       </group> <!-- loginFalse -->
     </groups>
-    <test name="用户管理系统测试用例" duration-ms="7971" started-at="2018-12-30T19:00:51Z" finished-at="2018-12-30T19:00:59Z">
+    <test name="用户管理系统测试用例" duration-ms="5782" started-at="2019-01-01T11:47:42Z" finished-at="2019-01-01T11:47:48Z">
       <class name="com.course.cases.UpdateUserInfoTest">
-        <test-method status="SKIP" signature="deleteUser()[pri:0, instance:com.course.cases.UpdateUserInfoTest@19b4d0f]" name="deleteUser" duration-ms="0" depends-on-groups="loginTrue" started-at="2018-12-30T19:00:59Z" description="娴嬭瘯鍒犻櫎鐢ㄦ埛" finished-at="2018-12-30T19:00:59Z">
+        <test-method status="SKIP" signature="deleteUser()[pri:0, instance:com.course.cases.UpdateUserInfoTest@19b4d0f]" name="deleteUser" duration-ms="0" depends-on-groups="loginTrue" started-at="2019-01-01T11:47:48Z" description="娴嬭瘯鍒犻櫎鐢ㄦ埛" finished-at="2019-01-01T11:47:48Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method UpdateUserInfoTest.deleteUser()[pri:0, instance:com.course.cases.UpdateUserInfoTest@19b4d0f] depends on not successfully finished methods in group "loginTrue"]]>
@@ -53,7 +53,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method status="SKIP" signature="updateUserInfo()[pri:0, instance:com.course.cases.UpdateUserInfoTest@19b4d0f]" name="updateUserInfo" duration-ms="0" depends-on-groups="loginTrue" started-at="2018-12-30T19:00:59Z" description="娴嬭瘯鐢ㄦ埛淇℃伅鏇存柊鎺ュ彛" finished-at="2018-12-30T19:00:59Z">
+        <test-method status="SKIP" signature="updateUserInfo()[pri:0, instance:com.course.cases.UpdateUserInfoTest@19b4d0f]" name="updateUserInfo" duration-ms="0" depends-on-groups="loginTrue" started-at="2019-01-01T11:47:48Z" description="娴嬭瘯鐢ㄦ埛淇℃伅鏇存柊鎺ュ彛" finished-at="2019-01-01T11:47:48Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method UpdateUserInfoTest.updateUserInfo()[pri:0, instance:com.course.cases.UpdateUserInfoTest@19b4d0f] depends on not successfully finished methods in group "loginTrue"]]>
@@ -95,11 +95,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
         </test-method> <!-- updateUserInfo -->
       </class> <!-- com.course.cases.UpdateUserInfoTest -->
       <class name="com.course.cases.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="beforeTest" is-config="true" duration-ms="188" started-at="2018-12-30T19:00:51Z" description="娴嬭瘯鍑嗗宸ヤ綔锛岃幏鍙朒ttpClient瀵硅薄绛�" finished-at="2018-12-30T19:00:51Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="beforeTest" is-config="true" duration-ms="83" started-at="2019-01-01T11:47:42Z" description="娴嬭瘯鍑嗗宸ヤ綔锛岃幏鍙朒ttpClient瀵硅薄绛�" finished-at="2019-01-01T11:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="loginTrue()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="loginTrue" duration-ms="5577" started-at="2018-12-30T19:00:51Z" description="娴嬭瘯鐢ㄦ埛鐧诲綍鎴愬姛鎺ュ彛" finished-at="2018-12-30T19:00:57Z">
+        <test-method status="FAIL" signature="loginTrue()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="loginTrue" duration-ms="3258" started-at="2019-01-01T11:47:42Z" description="娴嬭瘯鐢ㄦ埛鐧诲綍鎴愬姛鎺ュ彛" finished-at="2019-01-01T11:47:46Z">
           <exception class="org.apache.http.conn.HttpHostConnectException">
             <message>
               <![CDATA[Connection to http://localhost:8888 refused]]>
@@ -168,7 +168,7 @@ at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(Defa
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTrue -->
-        <test-method status="FAIL" signature="loginFalse()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="loginFalse" duration-ms="2086" started-at="2018-12-30T19:00:57Z" description="鐢ㄦ埛鐧诲綍澶辫触鎺ュ彛娴嬭瘯" finished-at="2018-12-30T19:00:59Z">
+        <test-method status="FAIL" signature="loginFalse()[pri:0, instance:com.course.cases.LoginTest@8bc3d5]" name="loginFalse" duration-ms="2391" started-at="2019-01-01T11:47:46Z" description="鐢ㄦ埛鐧诲綍澶辫触鎺ュ彛娴嬭瘯" finished-at="2019-01-01T11:47:48Z">
           <exception class="org.apache.http.conn.HttpHostConnectException">
             <message>
               <![CDATA[Connection to http://localhost:8888 refused]]>
@@ -239,7 +239,7 @@ at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(Defa
         </test-method> <!-- loginFalse -->
       </class> <!-- com.course.cases.LoginTest -->
       <class name="com.course.cases.GetUserInfoTest">
-        <test-method status="SKIP" signature="getUserInfo()[pri:0, instance:com.course.cases.GetUserInfoTest@5d012c]" name="getUserInfo" duration-ms="0" depends-on-groups="loginTrue" started-at="2018-12-30T19:00:59Z" description="娴嬭瘯鑾峰彇鐢ㄦ埛淇℃伅鎺ュ彛" finished-at="2018-12-30T19:00:59Z">
+        <test-method status="SKIP" signature="getUserInfo()[pri:0, instance:com.course.cases.GetUserInfoTest@5d012c]" name="getUserInfo" duration-ms="0" depends-on-groups="loginTrue" started-at="2019-01-01T11:47:48Z" description="娴嬭瘯鑾峰彇鐢ㄦ埛淇℃伅鎺ュ彛" finished-at="2019-01-01T11:47:48Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method GetUserInfoTest.getUserInfo()[pri:0, instance:com.course.cases.GetUserInfoTest@5d012c] depends on not successfully finished methods in group "loginTrue"]]>
@@ -281,7 +281,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
         </test-method> <!-- getUserInfo -->
       </class> <!-- com.course.cases.GetUserInfoTest -->
       <class name="com.course.cases.AddUserTest">
-        <test-method status="SKIP" signature="addUser()[pri:0, instance:com.course.cases.AddUserTest@da1055]" name="addUser" duration-ms="0" depends-on-groups="loginTrue" started-at="2018-12-30T19:00:59Z" description="澧炲姞鐢ㄦ埛鎺ュ彛娴嬭瘯" finished-at="2018-12-30T19:00:59Z">
+        <test-method status="SKIP" signature="addUser()[pri:0, instance:com.course.cases.AddUserTest@da1055]" name="addUser" duration-ms="0" depends-on-groups="loginTrue" started-at="2019-01-01T11:47:48Z" description="澧炲姞鐢ㄦ埛鎺ュ彛娴嬭瘯" finished-at="2019-01-01T11:47:48Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method AddUserTest.addUser()[pri:0, instance:com.course.cases.AddUserTest@da1055] depends on not successfully finished methods in group "loginTrue"]]>
@@ -323,7 +323,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
         </test-method> <!-- addUser -->
       </class> <!-- com.course.cases.AddUserTest -->
       <class name="com.course.cases.GetUserListTest">
-        <test-method status="SKIP" signature="getUserList()[pri:0, instance:com.course.cases.GetUserListTest@1b6a447]" name="getUserList" duration-ms="0" depends-on-groups="loginTrue" started-at="2018-12-30T19:00:59Z" description="娴嬭瘯鑾峰彇鐢ㄦ埛鍒楄〃鎺ュ彛娴嬭瘯" finished-at="2018-12-30T19:00:59Z">
+        <test-method status="SKIP" signature="getUserList()[pri:0, instance:com.course.cases.GetUserListTest@1b6a447]" name="getUserList" duration-ms="0" depends-on-groups="loginTrue" started-at="2019-01-01T11:47:48Z" description="娴嬭瘯鑾峰彇鐢ㄦ埛鍒楄〃鎺ュ彛娴嬭瘯" finished-at="2019-01-01T11:47:48Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method GetUserListTest.getUserList()[pri:0, instance:com.course.cases.GetUserListTest@1b6a447] depends on not successfully finished methods in group "loginTrue"]]>
